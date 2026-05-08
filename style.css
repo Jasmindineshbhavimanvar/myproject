@@ -1,0 +1,46 @@
+body{
+justify-content: center;
+min-height: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family:Georgia, 'Times New Roman';
+text-align: center;
+background-color:rgb(96, 184, 213);
+}
+
+h1{
+color: rgb(56, 7, 172);
+}
+p{
+    font-size: 23px;
+}
+
+#solution{
+display: none;
+padding: 30px;
+background: rgb(163, 210, 236);
+text-align: left;
+width: 1000px;
+margin:20px;
+border: solid rgb(5, 5, 5);
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+font-size:20px;
+color:rgb(7, 9, 0);
+}
+
+.card
+    {transition: 0.5s;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    background: #498cc3;
+    backdrop-filter: contrast(150%);
+    cursor: pointer;
+    border-radius: 4px;
+    }
+
+.card:hover{
+    transform: scale(1.08);
+    background: #d488df;
+}
